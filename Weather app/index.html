@@ -19,7 +19,7 @@
 
     <div class="weather">
         <img src="image/rain.png" class="weather-icon" >
-        <h1 class="temp">220°C</h1>
+        <h1 class="temp">22°C</h1>
         <h2 class="city">Nawalpur</h2>
 
         <div class="details">
@@ -67,7 +67,7 @@
         document.querySelector(".Wind").innerHTML = data.wind.speed + `Km/h`;
 
         if(data.weather[0].main == "Clouds"){
-            weatherIcon.src = "image/clouds .png";
+            weatherIcon.src = "image/clouds.png";
         }
         else if(data.weather[0].main == "Clear"){
             weatherIcon.src ="image/clear.png";
